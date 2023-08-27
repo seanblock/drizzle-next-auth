@@ -22,7 +22,7 @@ export const AuthCard = () => {
       <CardTitle className="pb-1">Welcome back</CardTitle>
       <CardDescription className="pb-8">Sign in to continue</CardDescription>
       <div className="flex flex-col space-y-2">
-        <Button
+        {/* <Button
           variant="outline"
           className="space-x-4 px-10"
           disabled={isLoading}
@@ -30,7 +30,7 @@ export const AuthCard = () => {
         >
           <Icons.google />
           <span className="text-xs sm:text-sm">Continue with Google</span>
-        </Button>
+        </Button> */}
         <Button
           variant="outline"
           className="space-x-4 px-10"
